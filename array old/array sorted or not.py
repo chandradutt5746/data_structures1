@@ -16,7 +16,7 @@ def meanandmedian(arr):
     m1 = statistics.median(arr)
     print(m, "median:- \n", m1)
 
-arr = [1, 2, 3, 4, 5, 2]
+arr = [1, 2, 3, 4, 5]
 
 n = len(arr)
 

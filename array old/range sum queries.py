@@ -26,7 +26,7 @@ def mergetwoarrays(arr1,arr2,n1,n2):
     print("arr2:- \n", arr2)
 
 
-    print("print array:- \n")
+    print("print array old:- \n")
     print(arr3)
 
 arr1 = [1,4,6,3,4,3]
