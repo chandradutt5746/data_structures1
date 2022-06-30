@@ -1,24 +1,23 @@
-def majority(arr,n):
-    maxcount=0
-    index= -1
+def majority(arr, n):
+    maxcount = 0
+    index = -1
     for i in range(n):
-        count=0
+        count = 0
         for j in range(n):
-            if(arr[i]==arr[j]):
-                count+=1
-        if(count>maxcount):
-            maxcount=count
-            index=i
-    if(maxcount>n//2):
+            if (arr[i] == arr[j]):
+                count += 1
+        if (count > maxcount):
+            maxcount = count
+            index = i
+    if (maxcount > n // 2):
         return arr[index]
     else:
         return "no majority found"
 
+
 arr = [1, 1, 2, 1, 3, 5, 1]
 n = len(arr)
-print(majority(arr,n))
-
-
+print(majority(arr, n))
 
 '''
 def majorityElement(self, A, N):

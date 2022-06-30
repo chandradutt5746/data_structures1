@@ -13,5 +13,5 @@ def leftrotate(arr, n):
 
 arr = [1, 2, 3, 4, 5, 6]
 n = len(arr)
-d = 2
+d = 3
 print(leftrotateone(arr, n, d))
