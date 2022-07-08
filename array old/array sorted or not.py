@@ -15,7 +15,8 @@ def meanandmedian(arr):
     m = statistics.mean(arr)
     m1 = statistics.median(arr)
     print(m, "median:- \n", m1)
-    print('helo')
+
+
 
 arr = [1, 2, 3, 4, 5]
 
